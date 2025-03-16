@@ -57,9 +57,9 @@ button:hover {
     border-radius: 5px;
 }
 .corner-text {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
+    position: fixed; /* Asegura que siempre esté en la misma posición */
+    bottom: 10px;  /* Lo mueve al fondo */
+    right: 10px;   /* Lo alinea a la derecha */
     font-size: 14px;
     font-weight: bold;
     color: gold;
@@ -68,4 +68,5 @@ button:hover {
     border-radius: 5px;
     font-family: Arial, sans-serif;
 }
+
 
