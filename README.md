@@ -25,8 +25,6 @@ Puedes probar la aplicación aquí:
 
 [![Ver en GitHub Pages](https://img.shields.io/badge/Ver%20Proyecto-Live-blue?style=for-the-badge&logo=github)](https://menm-hrry.github.io/ethkipu-Palindrome-Checker/)
 
-## Captura de pantalla
-![Verificador de Palíndromos](https://menm-hrry.github.io/ethkipu-Palindrome-Checker/screenshot.png)
 
 ## Autor
 - **MENM** - [GitHub](https://github.com/MENM-Hrry)
