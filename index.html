@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Palíndromos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-alert-circle text-purple-600 w-6 h-6" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: currentColor;"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
+            Verificador de Palíndromos
+        </h1>
+        <p class="palindrome-definition">
+            <span role="img" aria-label="light-bulb">💡</span> Un <dfn>palíndromo</dfn> es una palabra o frase que se lee 
+            igual hacia adelante y hacia atrás, ignorando signos de 
+            puntuación,acentos, mayúsculas y espacios.
+        </p>
+        <input type="text" id="text-input" placeholder="Ingrese una palabra o frase">
+        <button id="check-btn">Verificar Palíndromo</button>
+        <p id="result"></p>
+        <h3>Ejemplos de palíndromos:</h3>
+        <ul>
+            <li>"A man, a plan, a canal. Panama"</li>
+            <li>"race car"</li>
+            <li>"never odd or even"</li>
+        </ul>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
