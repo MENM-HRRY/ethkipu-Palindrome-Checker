@@ -70,3 +70,19 @@ button:hover {
 }
 
 
+
+.corner-text::before {
+    content: "X";
+    position: absolute;
+    color: brown;
+    font-weight: bold;
+    top: 5;
+    left: 60px; /* Adjust this value to position exactly over the first "c" */
+    font-size: 18px; /* Adjust size as needed */
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+
+
